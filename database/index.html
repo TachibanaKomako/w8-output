@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="text text text">
+    <link rel="stylesheet" href="sanitize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <h1>Sign in to your account</h1>
+        <form class="sign-in">
+            <div class="email">
+                <label for="email" class="title email-title">Your email</label>
+                <input class="input email-input" type="email" id="email">
+            </div>
+            <div class="password">
+                <label for="password" class="title password-title">Password</label>
+                <input class="input password-input" type="password" id="password">
+            </div>
+            <input class="submit" type="submit" value="Sing in" onclick="signInSubmit()">
+        </form>
+        <div class="sign-up">
+            Don't have an account yet? <a href="#">Sign up</a>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

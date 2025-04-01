@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.matrix_4__row {
+    display : flex;
+    justify-content: center;
+}
+
+.matrix_4__cell {
+    background-color: #aaa;
+    margin : 5px;
+    display: flex;
+    align-items: center;
+    height : 70px;
+    border-radius : 10px;
+}
+.matrix_4__val{
+    width: 100px;
+    text-align: center;
+}
+
+/*2X2*/
+.matrix_2__row {
+    display : flex;
+    justify-content: center;
+}
+
+.matrix_2__cell {
+    background-color: #aaa;
+    margin : 5px;
+    display: flex;
+    align-items: center;
+    height : 70px;
+    border-radius : 10px;
+}
+.matrix_2__val{
+    width: 200px;
+    text-align: center;
+}
+/*6X1*/
+.matrix_1__row {
+    display : flex;
+    justify-content: center;
+}
+
+.matrix_1__cell {
+    background-color: #aaa;
+    margin : 5px;
+    display: flex;
+    align-items: center;
+    height : 70px;
+    border-radius : 10px;
+}
+.matrix_1__val{
+    width: 50px;
+    text-align: center;
+}
